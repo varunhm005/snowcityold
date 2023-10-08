@@ -17,17 +17,15 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
 	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
-		href="img/apple-touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
-		href="img/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
 
 	<!-- Google web fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Roboto:300,400,400i,500,500i,700,700i,900i"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Roboto:300,400,400i,500,500i,700,700i,900i" rel="stylesheet">
 
 	<!-- BASE CSS -->
 	<link href="css/base.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/custom.css">
 
 	<!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
@@ -52,6 +50,7 @@
 
 	<!-- Header================================================== -->
 	<header>
+		<div class="toaster" id="toaster">Email sent successfully. We'll get back to you soon.</div>
 		<div id="top_line">
 			<div class="container">
 				<div class="row">
@@ -60,7 +59,7 @@
 					</div>
 					<div class="col-sm-8">
 						<ul id="top_links">
-							<li><a href="tel://004542344599" id="phone_top">+91 89391 28939</a><span id="opening">Mon -
+							<li><a href="tel://+918939128939" id="phone_top">+91 89391 28939</a><span id="opening">Mon -
 									Sat 8.00/18.00</span></li>
 						</ul>
 					</div>
@@ -72,8 +71,7 @@
 			<div class="row">
 				<div class="col-xs-3">
 					<div id="logo">
-						<a href="index.html"><img src="img/logo.png" width="175" height="35" alt="Electrician"
-								data-retina="true"></a>
+						<a href="index.html"><img src="img/logo.png" width="175" height="35" alt="Electrician" data-retina="true"></a>
 					</div>
 				</div>
 				<nav class="col-xs-9">
@@ -87,8 +85,7 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li class="submenu">
-								<a href="javascript:void(0);" class="show-submenu">Services <i
-										class="icon-down-open-mini"></i></a>
+								<a href="javascript:void(0);" class="show-submenu">Services <i class="icon-down-open-mini"></i></a>
 								<ul>
 									<li><a href="acservices.html">Air condition</a></li>
 									<li><a href="securitysystemservices.html">Security systems</a></li>
@@ -109,49 +106,45 @@
 			<div class="row">
 				<div class="col-md-8">
 					<div class="intro_title_booking">
-						<h1>Fast Electrical services!</h1>
-						<p> Legendos postulant ea quo, cum ut blandit mediocrem, et mei albucius deseruisse. Et lucilius
-							adolescens mea.</p>
+						<h1>Fast <span id="text"></span></h1>
+						<p>Expert AC, Wiring, and Security Alarm Services: Your trusted solution for efficient cooling, flawless wiring, and robust security systems. Experience superior craftsmanship and reliability.</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div id="book">
 						<h3>Quick contact</h3>
 						<div id="message-booking"></div>
-						<form role="form" method="post"
-							action="http://www.ansonika.com/electrician/assets/check_avail.php" id="check_avail">
+						<form role="form" method="post" id="form" action="sendMail.php">
 							<div class="row">
 								<div class="col-md-12 col-sm-6">
 									<div class="form-group">
 										<label>Name</label>
-										<input type="text" class="form-control" name="name_booking" id="name_booking"
-											placeholder="Name and Last name">
+										<input type="text" class="form-control" name="name_booking" id="name_booking" placeholder="Name and Last name" required>
 									</div>
 								</div>
 								<div class="col-md-12 col-sm-6">
 									<div class="form-group">
 										<label>Email</label>
-										<input type="email" class="form-control" name="email_booking" id="email_booking"
-											placeholder="Your email">
+										<input type="email" class="form-control" name="email_booking" id="email_booking" placeholder="Your email" required>
 									</div>
 								</div>
 								<div class="col-md-12 col-sm-6">
 									<div class="form-group">
 										<label>Telephone</label>
-										<input type="text" class="form-control" name="phone_booking" id="phone_booking"
-											placeholder="Telephone">
+										<input type="text" class="form-control" name="phone_booking" id="phone_booking" placeholder="Telephone" required>
 									</div>
 								</div>
 								<div class="col-md-12 col-sm-12">
 									<div class="form-group">
 										<label>Your request</label>
-										<textarea rows="5" id="message_booking" name="message_booking"
-											class="form-control" style="height:100px;"></textarea>
+										<textarea rows="5" id="message_booking" name="message_booking" class="form-control" style="height:100px;"></textarea>
 									</div>
 								</div>
 								<div class="col-md-12 col-sm-12">
 									<div class="form-group">
-										<input type="submit" value="Submit" class="btn_full" id="submit-booking">
+										<button type="submit" value="Submit" class="btn_full" id="submit-booking">
+											Submit</button>
+										<span id="loader" class="loader"></span>
 									</div>
 								</div>
 							</div>
@@ -223,7 +216,7 @@
 				<h2 class="text-center">If you have any further enquiries or doubts, feel free to reach out to our
 					customer support team. We are here to assist you and answer any questions you may have.</h2>
 				<div class="phone_feat">
-					<a href="tel://004542344599">Call Us +91 89391 28939</a>
+					<a href="tel://+918939128939">Call Us +91 89391 28939</a>
 				</div>
 			</div>
 		</div><!-- End feat home -->
@@ -231,34 +224,34 @@
 		<div class="container margin_60">
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
-					<a href="service_1.html"><img src="img/service_home_1.jpg" alt="" class="img-responsive border">
+					<a href="acservices.html"><img src="img/service_home_1.jpg" alt="" class="img-responsive border">
 					</a>
 					<h3>Air condition installation</h3>
 					<p>
 						Experience the comfort of expert air conditioning installation services. Our skilled technicians
 						ensure precise and efficient setup, tailored to your space. Beat the heat with our reliable
 						solutions.
-						<br><a href="service_1.html" class="link_normal">Read more</a>
+						<br><a href="acservices.html" class="link_normal">Read more</a>
 					</p>
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<a href="service_2.html"><img src="img/service_home_2.jpg" alt="" class="img-responsive border">
+					<a href="securitysystemservices.html"><img src="img/service_home_2.jpg" alt="" class="img-responsive border">
 					</a>
 					<h3>Wiring and installation</h3>
 					<p>
 						Expert wiring and seamless installations for a reliable and safe electrical system. Count on us
 						for efficient and professional service.
-						<br><a href="service_2.html" class="link_normal">Read more</a>
+						<br><a href="securitysystemservices.html" class="link_normal">Read more</a>
 					</p>
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<a href="service_3.html"><img src="img/service_home_3.jpg" alt="" class="img-responsive border">
+					<a href="wiringservices.html"><img src="img/service_home_3.jpg" alt="" class="img-responsive border">
 					</a>
 					<h3>Security systems</h3>
 					<p>
 						Secure your peace of mind with our professional security system installations. Expert setup for
 						ultimate protection and peace at home or office.
-						<br><a href="service_2.html" class="link_normal">Read more</a>
+						<br><a href="securitysystemservices.html" class="link_normal">Read more</a>
 					</p>
 				</div>
 			</div><!-- End row -->
@@ -329,8 +322,7 @@
 		<div class="container">
 			<div class="row ">
 				<div class="col-md-4 col-sm-6">
-					<img src="img/logo-footer.png" width="175" height="35" alt="Electrician" data-retina="true"
-						id="logo_footer">
+					<img src="img/logo-footer.png" width="175" height="35" alt="Electrician" data-retina="true" id="logo_footer">
 					<p>Elevate Comfort, Enhance Security, and Power Your Space with Our Expert Services. From Premium AC
 						Installations to Cutting-Edge Security Alarms and Precision Wiring Solutions, We've Got You
 						Covered. Experience Excellence in Every Cooling Breeze, Secure Moment, and Seamless Connection.
@@ -353,8 +345,7 @@
 						<li id="address_footer">30, Surapet Main Rd, Mukambika Nagar, Vinayakapuram, Puzhal,<br>
 							Chennai,
 							Tamil Nadu, <br> 600099.</li>
-						<li id="phone_footer"><a href="tel://004542344599">+91 89391 28939</a> / <a
-								href="tel://004542344599">+91 89391 28939</a></li>
+						<li id="phone_footer"><a href="tel://+918939128939">+91 89391 28939</a> / <a href="tel://+918939128939">+91 89391 28939</a></li>
 						<li id="email_footer"><a href="#">info@electrician.com</a></li>
 					</ul>
 				</div>
@@ -377,9 +368,64 @@
 
 	<!-- Specific scripts -->
 	<script src="assets/validate.js"></script>
+	<script src="js/custom.js"></script>
+
+	<script>
+		const textDisplay = document.getElementById('text')
+		const phrases = ['AC SERVICES', 'WIRING SERVICES', 'SECURITY ALARM SERVICES']
+		let i = 0
+		let j = 0
+		let currentPhrase = []
+		let isDeleting = false
+		let isEnd = false
+
+		function loop() {
+			isEnd = false
+			textDisplay.innerHTML = currentPhrase.join('')
+
+			if (i < phrases.length) {
+
+				if (!isDeleting && j <= phrases[i].length) {
+					currentPhrase.push(phrases[i][j])
+					j++
+					textDisplay.innerHTML = currentPhrase.join('')
+				}
+
+				if (isDeleting && j <= phrases[i].length) {
+					currentPhrase.pop(phrases[i][j])
+					j--
+					textDisplay.innerHTML = currentPhrase.join('')
+				}
+
+				if (j == phrases[i].length) {
+					isEnd = true
+					isDeleting = true
+				}
+
+				if (isDeleting && j === 0) {
+					currentPhrase = []
+					isDeleting = false
+					i++
+					if (i === phrases.length) {
+						i = 0
+					}
+				}
+			}
+			const spedUp = Math.random() * (80 - 50) + 50
+			const normalSpeed = Math.random() * (300 - 200) + 80
+			const time = isEnd ? 2000 : isDeleting ? spedUp : normalSpeed
+			setTimeout(loop, time)
+		}
+
+		loop()
+	</script>
+	<style>
+		#text {
+			border-right: solid white 4px;
+			height: 50px;
+		}
+	</style>
 
 </body>
-
-<!-- Mirrored from www.ansonika.com/electrician/index_3.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Oct 2023 13:08:14 GMT -->
 
 </html>

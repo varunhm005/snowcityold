@@ -1298,8 +1298,8 @@ video {
 #book .loader,
 #book_in .loader {
     position: absolute;
-    right: 20px;
-    bottom: 25px
+    right: 95px;
+    bottom: 20px
 }
 
 .error_message {
