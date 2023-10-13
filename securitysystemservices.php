@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from www.ansonika.com/electrician/acservices.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Oct 2023 13:08:14 GMT -->
+<!-- Mirrored from www.ansonika.com/electrician/securitysystemservices.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Oct 2023 13:08:16 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -75,30 +75,7 @@
                                 data-retina="true"></a>
                     </div>
                 </div>
-                <nav class="col-xs-9">
-                    <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu
-                            mobile</span></a>
-                    <div class="main-menu">
-                        <div id="header_menu">
-                            <img src="img/logo.png" width="175" height="35" alt="Electrician" data-retina="true">
-                        </div>
-                        <a href="#" class="open_close" id="close_in"><i class="icon_close"></i></a>
-                        <ul>
-                            <li><a href="index.php">Home</a></li>
-                            <li class="submenu">
-                                <a href="javascript:void(0);" class="show-submenu">Services <i
-                                        class="icon-down-open-mini"></i></a>
-                                <ul>
-                                    <li><a href="acservices.html">Air condition</a></li>
-                                    <li><a href="securitysystemservices.html">Security systems</a></li>
-                                    <li><a href="wiringservices.html">Wiring and installation</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="contacts.html">Contact us</a></li>
-                        </ul>
-                    </div><!-- End main-menu -->
-                </nav>
+                <?php require('navbar.php') ?>
             </div>
         </div><!-- container -->
     </header><!-- End Header -->
@@ -106,8 +83,8 @@
     <section id="sub_header">
         <div class="container">
             <div class="main_title">
-                <h1>Air Condition installation</h1>
-                <p>Experience Ultimate Comfort with Our Air Conditioning Services
+                <h1>Security systems</h1>
+                <p>Comprehensive Security Systems for Today's World
                 </p>
             </div>
         </div>
@@ -117,45 +94,41 @@
         <div class="container margin_60">
             <div class="row">
                 <div class="col-md-9">
-                    <img src="img/air_condition.jpg" alt="" class="img-responsive border">
-                    <h3>Air Condition</h3>
+                    <img src="img/security.jpg" alt="" class="img-responsive border">
+                    <h3>Home Alarms</h3>
                     <p class="add_bottom_30">
-                        Experience Ultimate Comfort with Our Air Conditioning Solutions. Our dedicated team specializes
-                        in delivering top-notch air conditioning services tailored to meet your cooling needs. From
-                        precise installations to swift and reliable repairs, we ensure your space stays refreshingly
-                        cool throughout the year. Our expertise extends to meticulous maintenance, ensuring your system
-                        operates at peak efficiency, saving you energy and money. Trust us for affordable, effective,
-                        and eco-friendly air conditioning solutions, providing you with the comfort you deserve. Stay
-                        cool and relaxed with our reliable services, backed by a commitment to excellence in every
-                        aspect of air conditioning.
+                        In today's rapidly changing world, ensuring the safety and security of your home or business has
+                        become more crucial than ever. A professionally installed security system offers peace of mind,
+                        protecting your loved ones, valuables, and property round the clock. At Snow City, we
+                        specialize in comprehensive security system installations tailored to your specific needs.
                     </p>
 
                     <div class="row strip">
                         <div class="col-md-4">
                             <p>
-                                <img src="img/air_condition_1.jpg" alt="" class="img-responsive" data-retina="true">
+                                <img src="img/security_1.jpg" alt="" class="img-responsive" data-retina="true">
                             </p>
                         </div>
                         <div class="col-md-8">
                             <h4>Installing</h4>
-                            <p>
-                                Our skilled technicians are experienced in installing a wide range of air conditioning
-                                systems. Whether you need a ducted system, split units, or central air conditioning, we
-                                handle installations with precision and professionalism.
+                            <p>Our certified technicians handle the installation process with precision and expertise.
+                                Every camera, sensor, and control panel is strategically placed to maximize coverage and
+                                effectiveness. We ensure seamless integration and optimize the system for optimal
+                                performance.
                             </p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul class="list_ok">
-                                        <li>Ensure proper placement and secure the unit firmly in position</li>
-                                        <li>Connect all required components, testing for proper functionality</li>
-                                        <li>Mount the indoor and outdoor units at the recommended height</li>
+                                        <li>Thorough Site Assessment</li>
+                                        <li>Choose the Right Devices</li>
+                                        <li>Professional Installation</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul class="list_ok">
-                                        <li>Charge the system with refrigerant and calibrate the settings</li>
-                                        <li>Attach ducts and vents for efficient air distribution</li>
-                                        <li>Install the thermostat and program it as needed for comfort control</li>
+                                        <li>Wiring and Power Supply</li>
+                                        <li>Network Security</li>
+                                        <li>Testing and Calibration</li>
                                     </ul>
                                 </div>
                             </div><!-- End row -->
@@ -165,28 +138,30 @@
                     <div class="row strip">
                         <div class="col-md-4">
                             <p>
-                                <img src="img/air_condition_2.jpg" alt="" class="img-responsive" data-retina="true">
+                                <img src="img/security_2.jpg" alt="" class="img-responsive" data-retina="true">
                             </p>
                         </div>
                         <div class="col-md-8">
-                            <h4>Repair</h4>
-                            <p>Facing issues with your air conditioner? Our prompt and reliable repair services will get
-                                your system up and running in no time. We diagnose problems accurately and offer
-                                efficient solutions to restore your cooling system's functionality.
+                            <h4>Diagnose</h4>
+                            <p>Effective security alarm diagnosis is crucial for maintaining a safe environment. By
+                                addressing power supply, sensor functionality, and communication issues promptly,
+                                property owners can ensure the system's reliability and prevent false alarms,
+                                guaranteeing the security system's effectiveness. Regular maintenance and professional
+                                assistance enhance overall security measures.
                             </p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul class="list_ok">
-                                        <li>Diagnose the Issue</li>
-                                        <li>Check for Refrigerant Leaks</li>
-                                        <li>Electrical Check</li>
+                                        <li>False Alarms</li>
+                                        <li>No Power Supply</li>
+                                        <li>Sensor Issues</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul class="list_ok">
-                                        <li>Inspect and Repair Ducts</li>
-                                        <li>Replace Faulty Parts</li>
-                                        <li>Test and Balance</li>
+                                        <li>Communication Problems</li>
+                                        <li>Keypad or Control Panel Issues</li>
+                                        <li>Siren or Alarm Bell Problems</li>
                                     </ul>
                                 </div>
                             </div><!-- End row -->
@@ -196,28 +171,30 @@
                     <div class="row strip">
                         <div class="col-md-4">
                             <p>
-                                <img src="img/air_condition_3.jpg" alt="" class="img-responsive" data-retina="true">
+                                <img src="img/security_3.jpg" alt="" class="img-responsive" data-retina="true">
                             </p>
                         </div>
                         <div class="col-md-8">
                             <h4>Manteinance</h4>
-                            <p>Regular maintenance is key to prolonging the lifespan of your air conditioning unit and
-                                maximizing its efficiency. Our maintenance packages include thorough inspections,
-                                cleaning, and tune-ups to ensure optimal performance and energy savings.
+                            <p>Proactive security system maintenance is indispensable for preserving its integrity.
+                                Regular inspections, cleaning, and software updates are vital for optimal performance,
+                                ensuring a robust defense against potential threats. By prioritizing these essential
+                                tasks, businesses and individuals can uphold the effectiveness of their security
+                                systems, promoting a safer environment for all.
                             </p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul class="list_ok">
-                                        <li>Regular Cleaning</li>
-                                        <li>Check Refrigerant Levels</li>
-                                        <li>Clean Evaporator and Condenser Coils</li>
+                                        <li>Check Components</li>
+                                        <li>Test Alarms</li>
+                                        <li>Regular Patching</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul class="list_ok">
-                                        <li>Clear Condensate Drain</li>
-                                        <li>Inspect Insulation</li>
-                                        <li>Check System Controls</li>
+                                        <li>Update Credentials</li>
+                                        <li>Replace Damaged</li>
+                                        <li>Clean Lenses</li>
                                     </ul>
                                 </div>
                             </div><!-- End row -->
@@ -243,7 +220,6 @@
                     <!-- <div class="quote_banner">
                         <a href="quotation.html">Need a quotation?</a>
                     </div> -->
-
                     <div class="box_style_2">
                         <h4><i class="icon_lightbulb_alt"></i> Power saving tips</h4>
                         <ul>
@@ -254,13 +230,11 @@
                             <li>Regular Maintenance.</li>
                             <li>Timely Repairs.</li>
                         </ul>
-                        <!-- <p>
-                            <a href="tips.html" class="link_normal">Read more</a>
-                        </p> -->
                     </div>
                 </div><!-- End col-md-3 -->
             </div><!-- End row -->
         </div><!-- End container -->
+        <?php require('whatsapp.php') ?>
     </main><!-- End main -->
 
     <footer>
@@ -315,6 +289,6 @@
 
 </body>
 
-<!-- Mirrored from www.ansonika.com/electrician/acservices.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Oct 2023 13:08:15 GMT -->
+<!-- Mirrored from www.ansonika.com/electrician/securitysystemservices.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Oct 2023 13:08:25 GMT -->
 
 </html>

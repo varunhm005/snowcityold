@@ -15,8 +15,8 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'varundemo493@gmail.com';
-    $mail->Password   = 'sbzx bwpc yfqm hgtr';
+    $mail->Username   = 'ganesh1461990@gmail.com';
+    $mail->Password   = 'etkt ztwo fcbj ozae';
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
@@ -27,8 +27,8 @@ try {
 
 
     //Recipients
-    $mail->setFrom('varundemo493@gmail.com', 'Varun');
-    $mail->addAddress('varunhm005@gmail.com', 'Varun');
+    $mail->setFrom($email, 'Varun');
+    $mail->addAddress('ganesh1461990@gmail.com', 'Varun');
 
     // Content
     $mail->isHTML(true);
