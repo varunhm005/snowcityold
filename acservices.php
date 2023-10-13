@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from www.ansonika.com/electrician/acservices.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Oct 2023 13:08:14 GMT -->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -205,20 +202,20 @@
                 <div class="col-md-3">
                     <div class="box_style_1">
                         <ul id="cat_nav">
-                            <li><a href="acservices.html">Air condition</a></li>
-                            <li><a href="securitysystemservices.html">Security systems</a></li>
-                            <li><a href="wiringservices.html">Wiring and installation</a></li>
+                            <li><a href="acservices.php">Air condition</a></li>
+                            <li><a href="securitysystemservices.php">Security systems</a></li>
+                            <li><a href="wiringservices.php">Wiring and installation</a></li>
                         </ul>
                         <hr>
                         <h5>Did you find what you need?</h5>
                         <p class="nopadding">
                             Have a question or need assistance? Don't hesitate to reach out. We're here to help!<br>
-                            <a href="contacts.html" class="link_normal">Contact us</a>
+                            <a href="contacts.php" class="link_normal">Contact us</a>
                         </p>
                     </div><!-- End Box_style_1 -->
 
                     <!-- <div class="quote_banner">
-                        <a href="quotation.html">Need a quotation?</a>
+                        <a href="quotation.php">Need a quotation?</a>
                     </div> -->
 
                     <div class="box_style_2">
@@ -232,7 +229,7 @@
                             <li>Timely Repairs.</li>
                         </ul>
                         <!-- <p>
-                            <a href="tips.html" class="link_normal">Read more</a>
+                            <a href="tips.php" class="link_normal">Read more</a>
                         </p> -->
                     </div>
                 </div><!-- End col-md-3 -->
@@ -256,11 +253,11 @@
                     <h3>Discover</h3>
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="contacts.html">Contacts</a></li>
-                        <li><a href="acservices.html">Air Condition Services</a></li>
-                        <li><a href="securitysystemservices.html">Security Alarm Services</a></li>
-                        <li><a href="wiringservices.html">Wiring Services</a></li>
+                        <li><a href="about.php">About us</a></li>
+                        <li><a href="contacts.php">Contacts</a></li>
+                        <li><a href="acservices.php">Air Condition Services</a></li>
+                        <li><a href="securitysystemservices.php">Security Alarm Services</a></li>
+                        <li><a href="wiringservices.php">Wiring Services</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-3" id="contact_bg">
@@ -292,7 +289,4 @@
     <script src="js/functions.js"></script>
 
 </body>
-
-<!-- Mirrored from www.ansonika.com/electrician/acservices.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Oct 2023 13:08:15 GMT -->
-
 </html>

@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from www.ansonika.com/electrician/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Oct 2023 13:08:39 GMT -->
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -208,11 +204,11 @@
 					<h3>Discover</h3>
 					<ul>
 						<li><a href="index.php">Home</a></li>
-						<li><a href="about.html">About us</a></li>
-						<li><a href="contacts.html">Contacts</a></li>
-						<li><a href="acservices.html">Air Condition Services</a></li>
-						<li><a href="securitysystemservices.html">Security Alarm Services</a></li>
-						<li><a href="wiringservices.html">Wiring Services</a></li>
+						<li><a href="about.php">About us</a></li>
+						<li><a href="contacts.php">Contacts</a></li>
+						<li><a href="acservices.php">Air Condition Services</a></li>
+						<li><a href="securitysystemservices.php">Security Alarm Services</a></li>
+						<li><a href="wiringservices.php">Wiring Services</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 col-sm-3" id="contact_bg">
@@ -268,7 +264,4 @@
 	</script>
 
 </body>
-
-<!-- Mirrored from www.ansonika.com/electrician/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Oct 2023 13:08:50 GMT -->
-
 </html>
