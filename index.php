@@ -199,34 +199,34 @@
 		<div class="container margin_60">
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
-					<a href="acservices.html"><img src="img/service_home_1.jpg" alt="" class="img-responsive border">
+					<a href="acservices.php"><img src="img/service_home_1.jpg" alt="" class="img-responsive border">
 					</a>
 					<h3>Air condition installation</h3>
 					<p>
 						Experience the comfort of expert air conditioning installation services. Our skilled technicians
 						ensure precise and efficient setup, tailored to your space. Beat the heat with our reliable
 						solutions.
-						<br><a href="acservices.html" class="link_normal">Read more</a>
+						<br><a href="acservices.php" class="link_normal">Read more</a>
 					</p>
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<a href="securitysystemservices.html"><img src="img/service_home_2.jpg" alt="" class="img-responsive border">
+					<a href="securitysystemservices.php"><img src="img/service_home_2.jpg" alt="" class="img-responsive border">
 					</a>
 					<h3>Wiring and installation</h3>
 					<p>
 						Expert wiring and seamless installations for a reliable and safe electrical system. Count on us
 						for efficient and professional service.
-						<br><a href="securitysystemservices.html" class="link_normal">Read more</a>
+						<br><a href="securitysystemservices.php" class="link_normal">Read more</a>
 					</p>
 				</div>
 				<div class="col-md-4 col-sm-4">
-					<a href="wiringservices.html"><img src="img/service_home_3.jpg" alt="" class="img-responsive border">
+					<a href="wiringservices.php"><img src="img/service_home_3.jpg" alt="" class="img-responsive border">
 					</a>
 					<h3>Security systems</h3>
 					<p>
 						Secure your peace of mind with our professional security system installations. Expert setup for
 						ultimate protection and peace at home or office.
-						<br><a href="securitysystemservices.html" class="link_normal">Read more</a>
+						<br><a href="securitysystemservices.php" class="link_normal">Read more</a>
 					</p>
 				</div>
 			</div><!-- End row -->
@@ -307,11 +307,11 @@
 					<h3>Discover</h3>
 					<ul>
 						<li><a href="index.php">Home</a></li>
-						<li><a href="about.html">About us</a></li>
-						<li><a href="contacts.html">Contacts</a></li>
-						<li><a href="acservices.html">Air Condition Services</a></li>
-						<li><a href="securitysystemservices.html">Security Alarm Services</a></li>
-						<li><a href="wiringservices.html">Wiring Services</a></li>
+						<li><a href="about.php">About us</a></li>
+						<li><a href="contacts.php">Contacts</a></li>
+						<li><a href="acservices.php">Air Condition Services</a></li>
+						<li><a href="securitysystemservices.php">Security Alarm Services</a></li>
+						<li><a href="wiringservices.php">Wiring Services</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4 col-sm-3" id="contact_bg">

@@ -1,5 +1,5 @@
-<!DOCTYPE .php>
-<.php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +26,7 @@
     <link href="css/base.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-      <script src="js/.php5shiv.min.js"></script>
+      <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
 
@@ -202,20 +202,20 @@
                 <div class="col-md-3">
                     <div class="box_style_1">
                         <ul id="cat_nav">
-                            <li><a href="acservices..php">Air condition</a></li>
-                            <li><a href="securitysystemservices..php">Security systems</a></li>
-                            <li><a href="wiringservices..php">Wiring and installation</a></li>
+                            <li><a href="acservices.php">Air condition</a></li>
+                            <li><a href="securitysystemservices.php">Security systems</a></li>
+                            <li><a href="wiringservices.php">Wiring and installation</a></li>
                         </ul>
                         <hr>
                         <h5>Did you find what you need?</h5>
                         <p class="nopadding">
                             Have a question or need assistance? Don't hesitate to reach out. We're here to help!<br>
-                            <a href="contacts..php" class="link_normal">Contact us</a>
+                            <a href="contacts.php" class="link_normal">Contact us</a>
                         </p>
                     </div><!-- End Box_style_1 -->
 
                     <!-- <div class="quote_banner">
-                        <a href="quotation..php">Need a quotation?</a>
+                        <a href="quotation.php">Need a quotation?</a>
                     </div> -->
                     <div class="box_style_2">
                         <h4><i class="icon_lightbulb_alt"></i> Power saving tips</h4>
@@ -249,11 +249,11 @@
                     <h3>Discover</h3>
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="about..php">About us</a></li>
-                        <li><a href="contacts..php">Contacts</a></li>
-                        <li><a href="acservices..php">Air Condition Services</a></li>
-                        <li><a href="securitysystemservices..php">Security Alarm Services</a></li>
-                        <li><a href="wiringservices..php">Wiring Services</a></li>
+                        <li><a href="about.php">About us</a></li>
+                        <li><a href="contacts.php">Contacts</a></li>
+                        <li><a href="acservices.php">Air Condition Services</a></li>
+                        <li><a href="securitysystemservices.php">Security Alarm Services</a></li>
+                        <li><a href="wiringservices.php">Wiring Services</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-3" id="contact_bg">
@@ -285,4 +285,4 @@
     <script src="js/functions.js"></script>
 
 </body>
-</.php>
+</html>
