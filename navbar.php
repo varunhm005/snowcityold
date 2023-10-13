@@ -11,13 +11,13 @@
 							<li class="submenu">
 								<a href="javascript:void(0);" class="show-submenu">Services <i class="icon-down-open-mini"></i></a>
 								<ul>
-									<li><a href="acservices.html">Air condition</a></li>
-									<li><a href="securitysystemservices.html">Security systems</a></li>
-									<li><a href="wiringservices.html">Wiring and installation</a></li>
+									<li><a href="acservices.php">Air condition</a></li>
+									<li><a href="securitysystemservices.php">Security systems</a></li>
+									<li><a href="wiringservices.php">Wiring and installation</a></li>
 								</ul>
 							</li>
-							<li><a href="about.html">About us</a></li>
-							<li><a href="contacts.html">Contact us</a></li>
+							<li><a href="about.php">About us</a></li>
+							<li><a href="contacts.php">Contact us</a></li>
 						</ul>
 					</div><!-- End main-menu -->
 				</nav>
